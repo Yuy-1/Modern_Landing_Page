@@ -5,7 +5,7 @@ module.exports = {
     extend: {
         maxWidth: {
             '16': '16rem',
-        }
+        },
     },
   },
    plugins: [
