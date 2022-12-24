@@ -520,15 +520,18 @@
           peer-focus:left-2
           peer-focus:text-neutral-600
           dark:peer-focus:text-neutral-300
-          ">Your Email</label>
+          ">Your Email
+          </label>
         </div>
-        <textarea name="content" id="content" cols="20" rows="5" class="peer
+        <div class="relative">
+          <textarea name="content" id="content" cols="20" rows="5" class="
+          peer
           form-textarea
           resize-none
           w-full
           border-4
           border-amber-400
-          rounded-400
+          rounded-md
           focus:ring-4
           dark:focus:ring-offset-2
           focus:ring-amber-400
@@ -537,10 +540,9 @@
           dark:bg-amber-400
           dark:text-neutral-900
           placeholder-transparent
-          "
-    placeholder="How can we help?">
-    </textarea>
-    <label for="content" class="
+          " placeholder="How can we help?">
+          </textarea>
+          <label for="content" class="
     text-neutral-500
     text-sm
     font-bold
@@ -557,7 +559,11 @@
     peer-focus:left-2
     peer-focus:text-neutral-600
     dark:peer-focus:text-neutral-300
-">How can we help?</label>
+    ">
+            How can we help?
+          </label>
+        </div>
+
       </form>
     </div>
   </section>
